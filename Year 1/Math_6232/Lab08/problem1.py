@@ -5,6 +5,6 @@ while(n >= 0) :
     if(n == 0) :
         result *= 1
         break
-    result *= k
+    result *= n
     n -= 1
 print(f"The factorial of {num} is {result}")
